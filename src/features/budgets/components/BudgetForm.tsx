@@ -45,7 +45,7 @@ export const BudgetForm: React.FC = () => {
     setTotalBudget(total);
   }, [seoSelected, adsSelected, webSelected, pages, languages]);
 
-  // actualitza url amb els params
+  
   useEffect(() => {
     const params = new URLSearchParams();
     if (seoSelected) params.set("CampaingSeo", "true");
@@ -58,7 +58,7 @@ export const BudgetForm: React.FC = () => {
     navigate(`?${params.toString()}`, { replace: true });
   }, [seoSelected, adsSelected, webSelected, pages, languages, annualDiscount]);
 
-  //  llegeix els params quan es carrega la pàgina
+  
   useEffect(() => {
     const params = new URLSearchParams(location.search);
     setSeoSelected(params.get("CampaingSeo") === "true");

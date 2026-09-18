@@ -3,7 +3,6 @@ import userEvent from "@testing-library/user-event";
 import { describe, it, expect, vi } from "vitest";
 import { BudgetList } from "./BudgetList";
 
-// Mock del component BudgetSearch
 vi.mock("./BudgetSearch", () => ({
   BudgetSearch: ({ searchTerm, setSearchTerm }: any) => (
     <input

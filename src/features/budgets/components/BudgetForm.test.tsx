@@ -18,11 +18,11 @@ it("adds a new budget and clears inputs", async () => {
 
   await user.click(screen.getByRole("button", { name: /Add budget/i }));
 
-  // Inputs buidats
+
   expect(screen.getByPlaceholderText(/Customer name/i)).toHaveValue("");
   expect(screen.getByPlaceholderText(/Phone number/i)).toHaveValue("");
   expect(screen.getByPlaceholderText(/Email/i)).toHaveValue("");
 
-  // El nou pressupost apareix a la llista
+
   expect(screen.getByText(/toni@example.com/i)).toBeInTheDocument();
 });
