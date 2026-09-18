@@ -5,7 +5,7 @@
 
 # 🌐 Visit demo
 
-[![Demo](https://img.shields.io/badge/View%20Demo-9932CC?style=for-the-badge)](https://triflip.github.io/S6.Budgets/)
+[![Demo](https://img.shields.io/badge/View%20Demo-9932CC?style=for-the-badge)](https://triflip.github.io/budget-calculator/)
 
 A web application to quickly and easily calculate digital budgets.  
 It allows you to add clients with their data (name, phone, email), select services (SEO, Ads, Web, etc.), calculate totals, and manage the list of pending budgets.
